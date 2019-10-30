@@ -7,6 +7,7 @@ import time
 
 search_query = input("Enter whatever you want to google : ")
 browser = webdriver.Firefox()
+#opening firefox
 browser.get('http://google.com/')
 
 searchBox =  browser.find_element_by_xpath('/html/body/div/div[3]/form/div[2]/div/div[1]/div/div[1]/input')
